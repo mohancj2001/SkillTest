@@ -14,14 +14,14 @@ function Signin() {
             className="w-[171px] h-[112px] mb-2"
             alt="Ezy Mart Logo"
           />
-          <h2 className="text-[24px] sm:text-[36px] h-[36px] font-[sfprodisplay] font-bold text-center">
+          <h2 className="text-[24px] sm:text-[36px] h-[36px]  font-bold text-center">
             Login To Your Account
           </h2>
-          <Label className="text-[#999999] h-[12px] mt-2 text-[14px] font-[sfprodisplay] font-bold mb-4 text-center">
+          <Label className="text-[#999999] h-[12px] mt-2 text-[14px]  font-bold mb-4 text-center">
             Enter your email and password to continue.
           </Label>
           <div className="flex flex-col gap-[10px] w-full max-w-md">
-            <Label htmlFor="email" className="mt-2 font-[inter] text-[#0F172A]">
+            <Label htmlFor="email" className="mt-2  text-[#0F172A]">
               Email
             </Label>
             <Input
@@ -31,7 +31,7 @@ function Signin() {
             />
             <Label
               htmlFor="password"
-              className="font-[inter] text-[#0F172A]"
+              className=" text-[#0F172A]"
             >
               Password
             </Label>
@@ -45,7 +45,7 @@ function Signin() {
               <Checkbox id="terms" className=" border border-[#E5E7EB]" />
               <Label
                 htmlFor="terms"
-                className="font-[inter] text-[14px] text-[#000000]"
+                className=" text-[14px] text-[#000000]"
               >
                 Remember Me
               </Label>
@@ -67,8 +67,8 @@ function Signin() {
               </Button>
             </div>
           </div>
-          <Label className="text-[#000000] text-[16px] font-[sfprodisplay] mt-4 text-center">
-            New to EzyMart? <Link to={"/signup"} className="text-[#A7C957] text-[16px] font-[sfprodisplay]">Register Now</Link>
+          <Label className="text-[#000000] text-[16px]  mt-4 text-center">
+            New to EzyMart? <Link to={"/signup"} className="text-[#A7C957] text-[16px] ">Register Now</Link>
           </Label>
         </div>
       </main>
