@@ -10,7 +10,7 @@ function Signin() {
       <main className="flex justify-center items-center h-screen">
   <div className="bg-[#FFFFFF] w-full sm:w-[526px] h-full sm:h-[580px] rounded-none sm:rounded-3xl drop-shadow-lg flex flex-col items-center p-4 sm:p-8 border border-[#D7D7D7]">
           <img
-            src="./src/img/image.png"
+            src="/assets/images/img/image.png"
             className="w-[171px] h-[112px] mb-2"
             alt="Ezy Mart Logo"
           />

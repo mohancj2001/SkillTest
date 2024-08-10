@@ -18,7 +18,7 @@ function Signup() {
       <main className="flex justify-center items-center">
         <div className="bg-[#FFFFFF] sm:mt-10 sm:mb-10 w-full sm:w-[526px] h-full sm:h-[780px] rounded-none sm:rounded-3xl drop-shadow-lg flex flex-col items-center p-4 sm:p-2 border border-[#D7D7D7]">
           <img
-            src="./src/img/image.png"
+            src="/assets/images/img/image.png"
             className="w-[171px] h-[112px] mb-2"
             alt="Ezy Mart Logo"
           />
