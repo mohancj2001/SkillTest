@@ -22,20 +22,20 @@ function Signup() {
             className="w-[171px] h-[112px] mb-2"
             alt="Ezy Mart Logo"
           />
-          <h2 className="text-[24px] sm:text-[36px] h-[36px]  font-bold text-center">
+          <h2 className="text-[24px] sm:text-[36px] h-[36px]  font-bold text-center font-sfpro">
             Create an Account
           </h2>
-          <Label className="text-[#999999] h-[12px] text-[14px]  font-bold mb-4 text-center">
+          <Label className="text-[#999999] font-sfpro h-[12px] text-[14px]  font-bold mb-4 mt-1 text-center">
             Fill your all details and continue.
           </Label>
           <div className="flex flex-col gap-[10px] w-full max-w-md">
-          <label htmlFor="name">Shop Name</label>
+          <Label htmlFor="name" className="text-[#0F172A] text-[14px]">Shop Name</Label>
           <Input
             type="text"
             placeholder="Enter Shop Name"
-            className="w-full h-[35px]"
+            className="w-full h-[35px] focus:border-[#7ED957]"
           />
-          <label htmlFor="business">Category</label>
+          <Label htmlFor="business" className="text-[#0F172A] text-[14px]">Category</Label>
           <Select className="">
             <SelectTrigger className="w-full h-[40px] border border-[#D7D7D7] bg-white text-[#6b7280]">
               <SelectValue placeholder="Select Shop Category" />
@@ -115,14 +115,14 @@ function Signup() {
                 size="lg"
                 className="w-[228px] text-[#FFFFFF] bg-[#A7A7A7] h-[40px]"
               >
-                Cancel
+                Back To Home
               </Button>
               <Button
                 variant="default"
                 size="lg"
-                className="w-[228px] bg-[#386641] text-[#FFFFFF] h-[40px]"
+                className="w-[228px] bg-[#6A994E] text-[#FFFFFF] h-[40px]"
               >
-                Login
+                Create Account
               </Button>
             </div>
           </div>
