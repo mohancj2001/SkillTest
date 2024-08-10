@@ -30,9 +30,9 @@ function App() {
     <>
       {/* <RouterProvider router={router} /> */}
       <Routes>
+        <Route index path="/" element={<Home/>} />
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/" element={<Home/>} />
         
       </Routes>
     </>
